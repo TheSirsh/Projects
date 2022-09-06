@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body class="travel">
+    <main>
+        <div class="topSections">
+            <header class="flexHeader">
+                <div class="logo">
+                        <img src="img/headerLogo.svg" alt="Logotype" class="logoImage">
+                        <p class="logoText">Travel Portal</p>
+                </div>
+                <nav class="navpanel" id="navpanel">
+                    <img src="img/closeBurger.svg" alt="close" class="closeImg navLink">
+                    <ul class="navbar">
+                        <li><a href="#preview" class="navLink">How It Works</a></li>
+                        <li><a href="#steps" class="navLink">Plan Your Trip</a></li>
+                        <li><a href="#destinations" class="navLink">Destinations</a></li>
+                        <li><a href="#stories" class="navLink" >Travel Stories</a></li>
+                        <li class="popUpLoginBtn mob" id="loginBtnMob"><a href="#" class="navLink">Account</a></li>
+                        <li class="mob"><a href="#social" class="navLink">Social Media</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <button class="popUpLoginBtn buttonLogin" id="loginBtnDesk">Login</button>
+                    <img src="img/menuImage.svg" alt="Menu" class="menuImg mob" id="menuImg">
+
+                </div>
+            </header>
+            <section class="preview" id="preview">
+                <h1 class="mainTitle">Explore the beauty of the World</h1>
+                <p class="descSearchBar">Receive personalized recommendations for countries, hotels, activities and more</p>
+                <form class="searchBox">
+                    <input type="search" class="searchBar" name="q" placeholder="What would you like to do?" > 
+                    <button type="submit" class="buttonSearch">Start Planning</button>
+                </form>
+            </section>
+        </div>
+        <section class="steps" id="steps">
+            <h2 class="title">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="stepsFlex">
+                <img src="img/bike.svg" alt="Travel" class="stepsImage">
+                <img src="img/calc.svg" alt="Calendar" class="stepsImage">
+                <img src="img/plane.svg" alt="Airplane" class="stepsImage">
+            </div>
+            <div class="stepsFlex2">
+                <span class="stepsText firstStep">Tell us what you want to do</span>
+                <span class="stepsText secondStep">Share us preferable dates</span>
+                <span class="stepsText thirdStep">We will give you recommendations</span>
+            </div>
+        </section>
+        <section class="destinations" id="destinations">
+            <h2 class="title">POPULAR DESTINATIONS</h2>
+            <div  id="carousel">
+            <div class="carousel">
+                <div class="carouselCell desk">
+                    <img src="img/CutUSA.jpg" alt="USA" class="emptyDiv l">
+                </div>
+                <div class="carouselCell" id="carouselCell">
+                    <img src="img/mainSpainDesk.jpg" alt="Spain" class="carouselImg desk">
+                    <img src="img/mainSpainMob.jpg" alt="Spain" class="carouselImg mob">
+                    <div class="imageName">SPAIN</div>
+                </div>
+                <div class="carouselCell">
+                    <img src="img/mainJapanDesk.jpg" alt="Japan" class="carouselImg desk">
+                    <img src="img/mainJapanMob.jpg" alt="Japan" class="carouselImg mob">
+                    <div class="imageName">JAPAN</div>
+                </div>
+                <div class="carouselCell">
+                    <img src="img/mainUSADesk.jpg" alt="USA" class="carouselImg desk">
+                    <img src="img/mainUSAMob.jpg" alt="USA" class="carouselImg mob">
+                    <div class="imageName">USA</div>
+                </div>
+                <div class="carouselCell desk">
+                    <img src="img/cutSpain.jpg" alt="Spain" class="emptyDiv r">
+                    <div class="imageName">SPAIN</div>
+                </div>
+            </div>
+            <div class="arrowSelector">
+                <div class="backArrowDeact" id="backArrow"></div>
+                <div class="forwArrow" id="forwArrow"></div>
+            </div>
+        </div>
+            <div class="selectors">
+                <div class="circleDeact circle"></div>
+                <div class="circleDeact"></div>
+                <div class="circleDeact"></div>
+            </div>
+            <button class="buttonElse">
+                <img src="img/mainArrow1.svg" alt="Arrow" class="arrow">
+                <span class="buttonText">Find More</span>
+            </button>
+        </section>
+        <h2 class="titleTravel">TRAVEL STORIES</h2>
+        <div class="bottomSections">
+            <section class="stories" id="stories">
+                <div class="travelFlex">
+                    <div class="travelCell">
+                        <img src="img/mainStory1desk.jpg" alt="Thailand" class="travelImage desk">
+                        <img src="img/mainStory1mob.jpg" alt="Thailand" class="travelImage mob">
+                        <div class="storiesText">
+                            <h3 class="mainStoryTitle">10 Photos of Attractive Thailand</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="travelCell">
+                        <img src="img/mainStory2desk.jpg" alt="Utah" class="travelImage desk">
+                        <img src="img/mainStory2mob.jpg" alt="Utah" class="travelImage mob">
+                        <div class="storiesText">
+                            <h3 class="mainStoryTitle">Canyonlands National Park, Utah</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="travelCell">
+                        <img src="img/mainStory3desk.jpg" alt="Mountains" class="travelImage desk">
+                        <img src="img/mainStory3mob.jpg" alt="Mountains" class="travelImage mob">
+                    <div class="storiesText">
+                            <h3 class="mainStoryTitle">I left my heart in the Mountains!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="travelCell">
+                        <img src="img/mainStory4desk.jpg" alt="Journey" class="travelImage desk">
+                        <img src="img/mainStory4mob.jpg" alt="Journey" class="travelImage mob">
+                        <div class="storiesText">
+                            <h3 class="mainStoryTitle">The Longest journey in my life!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <br><a href="#" class="travelLink">Read More</a></p>
+                        </div>
+                    </div>
+                </div>    
+                <button class="buttonElse">
+                    <img src="img/mainArrow2.svg" alt="Arrow" class="arrow">
+                    <span class="buttonText">See More</span>
+                </button>
+            </section>
+        <footer class="footerFlex" id="social">
+                <ul class="footerLink">
+                    <li class="socLink"><a href="https://github.com/thesirsh"><img src="img/GitHubLogo.svg" alt="GitHub" class="socLinkImage"></a></li>
+                    <li class="socLink"><a href="https://rs.school/js-stage0/"><img src="img/RSSchholLogo.svg" alt="RSSchool" class="socLinkImage"></a></li>
+                </ul>
+                <div>
+                    <p class="footerText">All Rights Reserved © Travel Portal</p>
+                </div>
+                <ul class="footerSocFlex">
+                    <li class="socLink"><a href="https://www.instagram.com/" ><img src="img/footerInsta.svg" alt="Instagramm" class="socLinkImage"></a></li>
+                    <li class="socLink"><a href="https://www.youtube.com/"><img src="img/footerYouTube.svg" alt="Video" class="socLinkImage"></a></li>
+                    <li class="socLink"><a href="https://twitter.com/"><img src="img/footerTwit.svg" alt="Twitter" class="socLinkImage"></a></li>
+                </ul>
+            </footer>
+        </div>
+        <div class="loginPopUpBackgroundDisable">
+            <div class="loginPopUpDisable" id="popUp">
+                <div class="mainPop">
+                    <h2 class="headPopUp ">Log in to your account</h2>
+                    <button class="buttonPopUp popUpFacebook"><img src="img/logoFacebook.svg" alt="Facebook" class="popUpImage"><span class="buttonTextPopUp">Sign In with Facebook</span></button>
+                    <button class="buttonPopUp popUpGoogle"><img src="img/logoGoogle.svg" alt="Google" class="popUpImage"><span class="buttonTextPopUp">Sign In with Google</span></button>
+                    <h3 class="termText">or</h3>
+                </div>
+                <div class="secondPop popUpDisable">
+                    <h2 class="headPopUp">Create account</h2>
+                </div>
+                <p class=inputDescr>E-mail</p>
+                <form class="formPopUp" name="mail">
+                    <input type="Email" class="inputPopUp" name='st' placeholder="Enter Your E-mail here">
+                </form>
+                <p class=inputDescr>Password</p>
+                <form class="formPopUp" name="pass">
+                    <input type="Password" class="inputPopUp" name='nd' placeholder="Enter Your Password here">
+                </form>
+                <button class="buttonPopUp popUpSignIn"><span class="buttonTextPopUp">Sign In</span></button>
+                <div class="mainPop">
+                    <a href="#" class="linkPopUp">Forgot Your Password?</a>
+                    <p class="termText2"></p>
+                    <p class="footPopUp">Don't have an account? <a href="#" class="footLinkPopUp footLinkPopUpReg ">Register</a></p>
+                </div>
+                <div class="secondPop popUpDisable">
+                    <p class="termText2"></p>
+                    <p class="footPopUp">Already have an account? <a href="#" class="footLinkPopUp footLinkPopUpLog">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script/index.js"></script>
+</body>
+</html>
