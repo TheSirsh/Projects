@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fonts/BadScript-Regular.ttf">
+    <title>Document</title>
+</head>
+<body class="body">
+    <h1 class="deck">Составление колоды для настольной игры "Древний ужас"</h1>
+    <div class="upperBox">
+        <div class="ancientsBox">
+        </div>
+        <div class="settings">
+            <ol class="settingsList">Состояние колоды
+                <li class="list settingAncient inactive">Древний не выбран</li>
+                <li class="list settingDiffuculty inactive">Уровень сложности не выбран</li>
+                <li class="list settingDeck inactive">Колода не замешана</li>
+                <li class="list settingFinal inactive">Колода не сложена</li>
+                <li class="list settingItsDone hide">Всё готово к игре!</li>
+            </ol>
+        </div>
+    </div>
+    <div class="lowerBox">
+        <div class="cards">
+         <div class="cards1"></div>
+         <div class="cards2"></div>
+         <div class="cards3"></div>
+        </div>
+        <div class="difficult hide"></div>
+        <div class="interactiveWindow">
+            <div class="stage1 ">
+                <h2>Этап 1</h2>
+                <span>Выберите древнего</span>
+            </div>
+            <div class="stage2 hide">
+                <h2>Этап 2</h2>
+                <span>Выберите уровень сложности</span>
+            </div>
+            <div class="stage3 hide">
+                <h2>Этап 3</h2>
+                <span>Замешивание колоды</span>
+                <div class ='cardBackground'></div>
+                <div class="counter">
+                    <div class='bl1'></div> <div class='br1'></div><div class='gr1'></div>
+                </div>
+                <div class="counter">
+                    <div class='bl2'></div><div class='br2'></div><div class='gr2'></div>
+                </div>
+                <div class="counter">
+                    <div class='bl3'></div><div  class='br3'></div><div class='gr3'></div>
+                </div>
+            </div>
+            <div class="stage4 hide">
+                <h2>Этап 4</h2>
+                <span>Сложить карты в колоду</span>
+                <div class="btnFinal">Сложить карты</div>
+            </div>
+            <div class='stage5 hide'>
+                <h2>Колода готова к игре!</h2>
+                <div class="cardBackgroundFinal"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script/script.js"></script>
+</body>
+</html>

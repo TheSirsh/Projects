@@ -1,0 +1,276 @@
+@font-face {
+    font-family: LovecraftFont;
+    src: url('../assets/fonts/BadScript-Regular.ttf');
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/home.png');
+    background-size: cover;
+    overflow: hidden;
+    font-family: LovecraftFont;
+    font-size: calc(100vw/100);
+}
+
+h1 {
+    font-size: calc(100vw/50);
+}
+
+h2 {
+    font-size: calc(100vw/60);
+}
+
+.deck {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.upperBox {
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+}
+
+.ancientsBox {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.active {
+    opacity: 1;
+}
+
+.inactive {
+    opacity: 0.5;
+}
+
+.ancientCell {
+    height: 100%;
+}
+
+.ancientCell:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #FFFFFF;
+}
+
+.ancientCard {
+    height: 90%;
+    width: 10vw;
+    background-size: contain;
+}
+
+
+.ancientName {
+    font-size: calc(100vw/100);
+    color: #FFFFFF;
+    width: 100%;
+    height: 10%;
+}
+
+.settings {
+    color: #FFFFFF;
+    width: 25%;
+    height: 100%;
+    font-size: calc(100vw/80);
+}
+
+.settingsList {
+    margin-top: 0px;
+    margin-left: 5vw;
+}
+
+.list {
+    font-size: calc(100vw/100);
+}
+
+
+.lowerBox {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 75vw;
+    height: 100%;
+}
+
+.cards1, .cards2, .cards3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 33%;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.brown{
+    border-radius: 3px;
+    border: 3px solid brown;
+}
+
+.green {
+    border-radius: 3px;
+    border: 3px solid green;
+}
+
+.blue {
+    border-radius: 3px;
+    border: 3px solid blue;
+}
+
+.difficult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    height: 7vh;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: LovecraftFont;
+    background-color: #331515;
+    color: #FFFFFF;
+    border-color: #292222;
+    font-size: calc(100vw/100);
+}
+
+.btn:hover {
+   color:#331515;
+   background-color: #FFFFFF;
+   cursor: pointer;
+   font-weight: bolder; 
+}
+
+.interactiveWindow {
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 25vw;
+    height: 50vh;
+    margin: 0px;
+}
+
+.cardBackground{
+    display: block;
+    height: 20vh;
+    width: 7vw;
+    background-image: url('../assets/mythicCardBackground.png');
+    background-size: cover !important;
+    margin: 0px auto 10px auto;
+}
+
+.cardBackground:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #FFFFFF;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    }
+
+.bl1, .bl2, .bl3, .br1, .br2, .br3, .gr1, .gr2, .gr3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.bl1, .bl2, .bl3 {
+    background-color: blue;
+}
+
+.br1, .br2, .br3 {
+    background-color: brown;
+}
+
+.gr1, .gr2, .gr3 {
+    background-color: green;
+}
+
+.cardCell {
+    height: 100%;
+    width: 14vw;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cardImg {
+    display: block;
+    height: 80%;
+    width: 10vh;
+    background-size: cover !important;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.cardName {
+    font-size: calc(100vw/120);
+    color: #FFFFFF;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.cardBackgroundFinal {
+    display: block;
+    height: 20vw;
+    width: 12vw;
+    background-image: url('../assets/mythicCardBackground.png');
+    background-size: cover !important;
+    margin: 0px auto 10px auto;
+}
+
+
+.stage5 {
+    margin-left: 43vw;
+    width: 14vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnFinal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 7vh;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: LovecraftFont;
+    background-color: #331515;
+    color: #FFFFFF;
+    border-color: #292222;
+    font-size: calc(100vw/100);
+    margin: 10px auto;
+}
+
+.btnFinal:hover {
+    color:#331515;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bolder; 
+ }
+ 
+.hide {
+    display: none;
+}
