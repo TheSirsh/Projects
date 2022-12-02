@@ -1,0 +1,558 @@
+.body {
+    background-position: bottom calc(100vw / 2.796) right;
+    background-size: calc(100vw / 5.1) calc(100vw / 3.09);
+}
+
+.upperSection {
+    height: calc(100vw / 1.71);
+    background: url('../assets/images/upperSectionPanda2.jpg');
+}
+
+.desk1000 {
+    display: none;
+}
+
+.header {
+    height: calc(100vw / 12.5);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navHeader {
+    width: calc(100vw / 1.06);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    color: #FFFFFF;
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 140%;
+    margin-left: calc(100vw / 20.83);
+}
+
+.nav {
+    width: calc(100vw / 1.736);
+    height: calc(100vw / 19.23);
+}
+
+.navList {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    border-radius: calc(100vw / 500);
+    font-size: calc(100vw / 52.6);
+    width: calc(100vw / 12.195);
+    height: calc(100vw / 19.23);
+    margin-left: 0px;
+    margin-right: calc(100vw / 100);
+}
+
+.bambooLogo {
+    width: calc(100vw / 142.25);
+    height: calc(100vw / 33.356);
+    top: 45%;
+    left: 10%;
+}
+
+.bambooLogo2 {
+    width: 7px;
+    height: 20px;
+    top: 40%;
+    left: 4%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    width: calc(100vw / 9.52);
+    height: calc(100vw / 45.45);
+    font-size: calc(100vw / 62.5);
+}
+
+.online {
+    height: calc(100vw / 1.71);
+}
+
+.titleHeader {
+    position: relative;
+    z-index: 2;
+    width: calc(100vw / 2.5);
+    height: calc(100vw / 3.125);
+    font-size: calc(100vw / 11.76);
+    font-weight: 700;
+    line-height: 75%;
+    padding: calc(100vw / 23.36) 0px 0px 0px;
+    margin: 0px  0px 0px calc(100vw / 1.946);
+}
+
+.button {
+    width: calc(100vw / 3.356);
+    height: calc(100vw / 18.52);
+    border-radius: calc(100vw / 40);
+    font-size: calc(100vw / 62.5);
+    letter-spacing: -1px;
+}
+
+.buttonHeader {
+    margin-top: calc(100vw / 24.876);
+    margin-left: calc(100vw / 1.77);
+}
+
+.onlineCircleBg {
+    z-index: 1;
+    left: calc(100vw / 2.192);
+    top: calc(100vw / 14.49);
+    width: calc(100vw / 2.725);
+    height: calc(100vw / 2.725);
+}
+
+.backstageSecionCell {
+    margin: 0px auto;
+    width: calc(100vw / 1.06);
+    height: calc(100vw / 2.34);
+    padding-top: calc(100vw / 10);
+    padding-bottom: calc(100vw / 7.04);
+    overflow-x: hidden;
+}
+
+.backstageImage {
+    width: calc(100vw / 2.20);
+    height: calc(100vw / 2.45);
+    margin-top: calc(100vw / 111.11);
+}
+
+.backstageTextBlock {
+    width: calc(100vw / 2.10);
+    height: calc(100vw / 2.34);
+    margin-left: calc(100vw / 32.26);
+    font-weight: 400;
+}
+
+.backstageTitle {
+    font-size: calc(100vw / 20.83);
+    margin: 0px 0px calc(100vw / 50) 0px;
+    letter-spacing: -0.3px;
+}
+
+.backstageText {
+    font-size: calc(100vw / 62.5);
+}
+
+.backstageText2 {
+    font-size: calc(100vw / 62.5);
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.backstageTitleSub {
+    font-size: calc(100vw / 41.67);
+    margin: calc(100vw / 17.5) 0px calc(100vw / 29.41) 0px
+}
+
+.animalCardsSection {
+    background-position: bottom  right, bottom left calc(100vw / 5.15 / (-1));
+    background-size: calc(100vw / 4.20) calc(100vw / 5.56), calc(100vw / 2.59) calc(100vw / 4.95);
+}
+
+.animalCardsCell {
+    width: calc(100vw / 1.06);
+    height: calc(100vw / 1.25);
+}
+
+.animalCardsSectionCell {
+    margin: 0px auto;
+    position: relative;
+    width: calc(100vw / 1.06);
+    height: calc(100vw / 1.25);
+}
+
+.arrow {
+    position: absolute;
+    width: calc(100vw / 16.13);
+    height: calc(100vw / 16.13);
+    margin: calc(100vw / 2.71) 0px auto 0px;
+}
+
+.leftArrow {
+    left: calc(100vw / 3.096);
+}
+
+.rightArrow {
+    right: calc(100vw / 3.096);
+}
+
+.arrowImage {
+    margin: calc(100vw / 37.04) auto;
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 124);
+}
+
+.animalCards {
+    width: 100%;
+    align-content: space-between;
+    height: 100%;
+}
+
+.card {
+    width: calc(100vw / 3.4);
+    margin: 0px;
+    height: calc(100vw / 2.82);
+    border-radius: calc(100vw / 200);
+}
+
+.card:hover > .imageCard {
+    transform: translateY(calc(100vw / 34.48)) scale(1.2);
+}
+
+.card:hover > .textCard {
+    transform: translateX(calc(100vw / (-250))) translateY(calc(100vw / 250)) scale(1.3);
+}
+
+.imageCard {
+    height: calc(100vw / 3.4);
+    border-radius: calc(100vw / 200) calc(100vw / 200) 0px 0px;
+}
+
+.textCard {
+    width: calc(100vw / 3.7);
+    height: calc(100vw / 25);
+    margin: calc(100vw / 250) calc(100vw / 75) 0px calc(100vw / 62.5);
+}
+
+.titleCard {
+    height: calc(100vw / 45.45);
+    letter-spacing: -0.5px;
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+}
+
+.descrCard {
+    height: calc(100vw / 55.56);
+    font-size: calc(100vw / 66.67);
+    font-weight: 300;
+}
+
+.foodCardPlant {
+    width: calc(100vw / 30.3);
+    height: calc(100vw / 27.03);
+    padding-left: calc(100vw / 100);
+}
+
+.foodCardMeat {
+    width: calc(100vw / 20.83);
+    height: calc(100vw / 25.64);
+    padding-left: calc(100vw / 50);
+}
+
+.buttonAnimal {
+    margin: calc(100vw / 12.5) auto calc(100vw / 7.14) auto;
+}
+
+.pickFeedSection {
+    height: calc(100vw/ 1.18);
+    padding-top: calc(100vw / 33.33);
+}
+
+.pickFeedContainer {
+    width: calc(100vw / 1.064);
+    height: calc(100vw / 1.256);
+    margin: 0px auto;
+    border-radius: calc(100vw / 50);
+}
+
+.pickFeedTitle {
+    height: calc(100vw / 17.24);
+    margin: calc(100vw / 33.33) auto calc(100vw / 50) auto;
+    font-size: calc(100vw / 20.83);
+    font-weight: 400;
+}
+
+.pickFeedSubtitle {
+    width: calc(100vw / 1.18);
+    height: calc(100vw / 34.48);
+    font-size: calc(100vw / 41.67);
+    font-weight: 400;
+    margin: 0px auto calc(100vw / 50) calc(100vw / 20.41);
+}
+
+.pickFeedTextCovid {
+    width: calc(100vw / 1.23);
+    height: calc(100vw / 23.81);
+    margin: 0px calc(100vw / 20.41) 0px calc(100vw / 20.41);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pickFeedText {
+    width: calc(100vw / 1.215);
+    height: calc(100vw / 23.81);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    line-height: 130%;
+    margin: calc(100vw / 100) auto calc(100vw / 25) calc(100vw / 20.41);
+}
+
+.pickFeedSecondTitle {
+    width: calc(100vw / 4.78);
+    height: calc(100vw / 21.28);
+    font-size: calc(100vw / 27.78);
+    font-weight: 400;
+}
+
+.widjetBlock {
+    width: calc(100vw / 1.31);
+    height: calc(100vw / 4.10);
+    margin: calc(100vw / 25) auto calc(100vw / 14.286) auto;
+}
+
+.widjetCard {
+    width: calc(100vw / 5.95);
+    height: calc(100vw / 4.10);
+}
+
+.widjetImageContainer {
+    height: calc(100vw / 5.95);
+    border-radius: calc(100vw / 200);
+    border: 1px solid #F9804B;
+}
+
+.widjetCardIext {
+    margin-top: calc(100vw / 33.33);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.iconCard {
+    height: calc(100vw / 16.67);
+    width: calc(100vw / 9.26);
+    padding-top: calc(100vw / 18.52);
+}
+
+.iconZoo {
+    height: calc(100vw / 11.66);
+    width: calc(100vw / 11.66);
+    padding-top: calc(100vw / 26.316);
+}
+
+.iconBanana {
+    height: calc(100vw / 13.97);
+    width: calc(100vw / 8.02);
+    padding-top: calc(100vw / 20.83);
+}
+
+.pickFeedArrow {
+    width: calc(100vw / 14.49);
+    height: calc(100vw / 28.51      );
+    margin: calc(100vw / 16.25) calc(100vw / 33.33) auto calc(100vw / 33.33);
+}
+
+.testomonialSection {
+    width: 100vw;
+    height: calc(100vw / 1.35);
+    padding-top: calc(100vw / 10);
+    margin: 0px;
+}
+
+.testomonialTitle {
+    font-size: calc(100vw / 27.78);
+    margin: calc(100vw / 10) auto 0px auto;
+}
+
+.testimonialScroll {
+    width: calc(100vw / 1.06);
+    height: calc(100vw / 2.56);
+    margin: calc(100vw / 33.33) auto 0px auto;
+}
+
+.testimonialCard {
+    width: calc(100vw / 3.41);
+    height: calc(100vw / 2.56);
+    border-radius: calc(100vw / 50);
+}
+
+.testimonialHead {
+    margin: calc(100vw / 66.67) auto calc(100vw / 90.91) calc(100vw / 66.67);
+}
+
+.testimonialUserIcon {
+    width: calc(100vw / 27.03);
+    height: calc(100vw / 27.03);
+    margin-right: calc(100vw / 100);
+}
+
+.testimonialUserName {
+    height: calc(100vw / 52.63);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.testimonialUserLocation {
+    height: calc(100vw / 55.56);
+    font-size: calc(100vw / 66.67);
+    font-weight: 300;
+}
+
+.testimonialText{
+    width: calc(100vw / 3.92);
+    height: calc(100vw / 3.24);
+    margin-left: calc(100vw / 62.5);
+    font-size: calc(100vw / 66.67);
+    line-height: 120%;
+    font-weight: 300;
+}
+
+input[type=range] {
+    width: calc(100vw / 2.56);
+    height: calc(100vw / 125);
+    border-radius: calc(100vw / 200);
+    margin: calc(100vw / 50) auto calc(100vw / 19.23) calc(100vw / 3.34);
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: calc(100vw / 13.33);
+    height: calc(100vw / 166.67);
+    border-radius: calc(100vw / 200);
+    margin-top: 1px;
+}
+
+.button2 {
+    width: calc(100vw / 3.356);
+    height: calc(100vw / 18.52);
+    border-radius: calc(100vw / 200);
+    margin-left: calc(100vw / 33.33);
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.footer {
+    height: calc(100vw / 2.26);
+}
+
+.footerSocList {
+    flex-direction: column;
+}  
+
+.footerCell {
+    margin: 0px auto;
+    width: calc(100vw / 1.06);
+    padding: calc(100vw / 25) 0px 0px 0px;
+}
+
+.footerSocCell {
+    height: calc(100vw / 38.46);
+    margin-bottom: calc(100vw / 100);
+}
+
+.buttonFooter {
+    margin: calc(100vw / 14.7) 0px calc(100vw / 22.72) 0px;
+}
+
+.iconFooterBg {
+    width: calc(100vw / 38.36);
+    height: calc(100vw / 38.46);
+}
+
+.iconFacebook {
+    width: calc(100vw / 125);
+    height: calc(100vw / 62.5);
+    padding-top: calc(100vw / 200);
+}
+
+.iconTwitter {
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 71.43);
+    padding-top: calc(100vw / 166.67);
+}
+
+.iconInstagramm {
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 62.5);
+    padding-top: calc(100vw / 200);
+}
+
+.iconYouTube {
+    width: calc(100vw / 55.56);
+    height: calc(100vw / 76.98);
+    padding-top: calc(100vw / 166.67);
+}
+
+.footerSocText {
+    height: calc(100vw / 45.45);
+    margin-left: calc(100vw / 83.33);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerCenter {
+    width: calc(100vw / 3.01);
+    height: calc(100vw / 45.45);
+    margin-left: calc(100vw / 125 / (-1));
+    margin-right: calc(100vw / 11.36 / (-1));
+    padding-top: calc(100vw / 3.02);
+}
+
+.footerLink {
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.subscribeCell {
+    margin-left: calc(100vw / 125);
+}
+
+.subscribeTitle {
+    font-size: calc(100vw / 41.67);
+    font-weight: 400;
+    margin-bottom: calc(100vw / 71.43);
+}
+
+.subscribeForm {
+    width: calc(100vw / 2.73);
+    height: calc(100vw / 23.81);
+    margin: 0px;
+}
+
+.subscribeInput {
+    width: calc(100vw / 4.386);
+    height: calc(100vw / 23.81);
+    border-radius: calc(100vw / 500);
+}
+
+.subscribeInput::placeholder {
+    font-size: calc(100vw / 62.5);
+    padding-left: calc(100vw / 100);
+    font-weight: 400;
+}
+
+.emailButton {
+    width: calc(100vw / 7.75);
+    height: calc(100vw / 23.81);
+    margin-left: calc(100vw / 111.11);
+    border-radius: calc(100vw / 200);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.designCell {
+    margin-bottom: -2%;
+}
+
+.designText {
+    width: calc(100vw / 4.386);
+    height: calc(100vw / 47.61);
+    margin-left: calc(100vw / 5.68);
+    margin-top: calc(100vw / 100);
+    font-size: calc(100vw / 62.5);
+    font-weight: 100;
+}

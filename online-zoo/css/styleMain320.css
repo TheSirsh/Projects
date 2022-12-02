@@ -1,0 +1,665 @@
+.body {
+    background-position: bottom calc(100vw / 1.05) right;
+    background-size: calc(100vw / 6) calc(100vw / 3.4);
+    overflow-x: hidden;
+}
+
+.upperSection {
+    height: calc(100vw / 1.71);
+    background-image: url('../assets/images/upperSectionPanda3.jpg');
+}
+
+.desk320 {
+    display: none !important;
+}
+
+.burgerNav {
+    height: calc(100vw / 0.973);
+}
+
+.burgerNavList {
+    margin: calc(100vw / 32) 0px 0px calc(100vw / 32);
+}
+
+.burgerLogo {
+    width: calc(100vw / 4.88);
+    height: calc(100vw / 7.69);
+    border: calc(100vw / 400) solid #FE9013;
+    font-size: calc(100vw / 21.04);
+    margin-bottom: calc(100vw / 10.53);
+}
+.burgerNavLinkCell {
+    margin: calc(100vw / 21.33) 0px calc(100vw / 21.33) 0px;
+}
+
+.burgerLink {
+    font-size: calc(100vw / 20);
+}
+
+.burgerCloseBtn {
+    margin: calc(100vw / 32) calc(100vw / 32) 0px 0px;
+}
+
+.burgerClose {
+    width: calc(100vw / 16);
+    height: calc(100vw / 16);
+}
+
+.backgroundBlur {
+    height: calc(100vh - 100vw / 0.973);
+}
+
+.header {
+    height: 34px;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    margin: 0px;
+}
+
+.logo {
+    border: #FE9013 solid 0.8px;
+    color: #FE9013;
+    border-radius: 2px;
+    font-size: 15.21px;
+    width: 57.99px;
+    height: 35.93px;
+    margin: 12.84px auto 18.24px 10px;
+}
+
+.bambooLogo {
+    position: absolute;
+    width: 11.51px;
+    height: 15.59px;
+    top: 13.99px;
+    left: 1.54px;
+}
+
+.copyrightCell {
+    margin-top: 15px;
+}
+
+.copyright {
+    color: #333B41;
+    width: 104px;
+    height: 22px;
+    font-size: 16px;
+}
+
+.navHeaderMob {
+    position: relative;
+    width: 93.75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.lgMob {
+    display: block;
+    width: 47px;
+    height: 29px;
+    margin-right: 0px;
+    margin-top: 2.29px;
+}
+
+.logoHeaderMb {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12.29px;
+    line-height: 120%;
+    width: 100%;
+    height: 100%;
+    line-height: 120%;
+    margin: 0px;
+}
+
+.burgerMenu {
+    margin-top: -6px;
+    width: 18px;
+    height: 10px;
+}
+
+.burgerImg {
+    width: 100%;
+    height: 100%;
+}
+
+.online {
+    margin-top: 34px;
+    height: calc(100vw / 1.71);
+}
+
+.titleHeader {
+    position: relative;
+    z-index: 2;
+    width: calc(100vw / 2.5);
+    height: calc(100vw / 3.12);
+    font-size: calc(100vw / 11.43);
+    font-weight: 700;
+    line-height: 75%;
+    padding: calc(100vw / 7.78) 0px 0px 0px;
+    margin: 0px  0px 0px calc(100vw / 1.76);
+}
+
+.button {
+    width: calc(100vw / 1.07);
+    height: calc(100vw / 5.926);
+    border-radius: calc(100vw / 12.8);
+    font-size: calc(100vw / 20);
+    letter-spacing: -1px;
+}
+
+.buttonHeader {
+    position: absolute;
+    top: calc(100vw / 1.325);
+    left: calc(100vw / 29.09)
+}
+
+.onlineCircleBg {
+    z-index: 1;
+    left: calc(100vw / 1.96);
+    top: calc(100vw / 5.697);
+    width: calc(100vw / 2.69);
+    height: calc(100vw / 2.69);
+}
+
+.backstageSecion {
+    background-image: url('../assets/images/bgFlower.jpg');
+    background-repeat: no-repeat;
+    background-position: top calc(100vw / 8.41) right calc(100vw / 4.32 / (-1));
+    background-size: calc(100vw / 3.05) calc(100vw / 1.47);
+}
+
+.backstageSecionCell {
+    margin-left: calc(100vw / 32);
+    width: calc(100vw / 1.07);
+    height: calc(100vw / 0.82);
+    padding-top: calc(100vw / 3.08);
+    padding-bottom: calc(100vw / 8);
+}
+
+.backstageImage {
+    display: none;
+}
+
+.backstageTextBlock {
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+}
+
+.backstageTitle {
+    font-size: calc(100vw / 13.33);
+    font-weight: 400;
+    margin: 0px 0px calc(100vw / 32) 0px;
+    letter-spacing: 0px;
+}
+
+.backstageText {
+    font-size: calc(100vw / 20);
+    line-height: 130%;
+}
+
+.backstageText2 {
+    font-size: calc(100vw / 20);
+    line-height: 137%;
+    letter-spacing: 0px;
+}
+
+.backstageTitleSub {
+    font-size: calc(100vw / 13.33);
+    font-weight: 400;
+    margin: calc(100vw / 16) 0px calc(100vw / 32) 0px
+}
+
+.animalCardsSection {
+    background-position: bottom right calc(100vw / (-18.82)), bottom left calc(100vw / (-4));
+    background-size: calc(100vw / 3.76) calc(100vw / 4.51), calc(100vw / 2.32) calc(100vw / 4.44);
+}
+
+.animalCardsSectionCell {
+    position: relative;;
+    width: calc(100vw / 1.12);
+    margin: 0px calc(100vw / 12.8) 0px calc(100vw / 32);
+    height: calc(100vw / 0.2305);
+}
+
+.animalCards {
+    width: 100%;
+    align-content: space-between;
+}
+
+.card {
+    width: calc(100vw / 1.12);
+    margin: 0px;
+    height: calc(100vw / 0.964);
+    border-radius: calc(100vw / 64);
+}
+
+.card:hover > .imageCard {
+    transform: translateX(calc(100vw / 64)) translateY(calc(100vw / 32)) scale(1.082);
+}
+
+.card:hover > .textCard {
+    transform: translateX(calc(100vw / 100)) translateY(calc(100vw / 250)) scale(1.16);
+}
+
+.imageCard {
+    height: calc(100vw / 1.12);
+    border-radius: calc(100vw / 64) calc(100vw / 64) 0px 0px;
+}
+
+.textCard {
+    width: calc(100vw / 1.21);
+    height: calc(100vw / 10.82);
+    margin: 0px calc(100vw / 35.13) 0px calc(100vw / 26.66);
+}
+
+.titleCard {
+    height: calc(100vw / 18.82);
+    letter-spacing: -0.5px;
+    font-size: calc(100vw / 25.66);
+    font-weight: 500;
+}
+
+.descrCard {
+    height: calc(100vw / 22.86);
+    font-size: calc(100vw / 27.37);
+    font-weight: 300;
+}
+
+.foodCardPlant {
+    width: calc(100vw / 12.44);
+    height: calc(100vw / 11.09);
+    padding-left: 10px;
+}
+
+.foodCardMeat {
+    width: calc(100vw / 8.555);
+    height: calc(100vw / 10.805);
+}
+
+.buttonAnimal {
+    margin: calc(100vw / 17) auto calc(100vw / 5.23) auto;
+}
+
+.pickFeedSection {
+    height: calc(100vw/ 0.302);
+    padding-top: calc(100vw / 16);
+}
+
+.pickFeedContainer {
+    width: calc(100vw / 1.07);
+    height: calc(100vw / 0.31);
+    margin: 0px auto;
+    padding-bottom: calc(100vw / 40);
+    border-radius: calc(100vw / 16);
+}
+
+.pickFeedTitle {
+    height: calc(100vw / 11.03);
+    margin: calc(100vw / 16) auto calc(100vw / 35) auto;
+    font-size: calc(100vw / 13.33);
+    font-weight: 400;
+}
+
+.pickFeedSubtitle {
+    text-align: center;
+    width: calc(100vw / 1.08);
+    height: calc(100vw / 4.85);
+    font-size: calc(100vw / 17.78);
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    margin: 0px auto calc(100vw / 16) auto;
+}
+
+.pickFeedSecondTitle {
+    width: calc(100vw / 2.3);
+    height: calc(100vw / 11.03);
+    font-size: calc(100vw / 13.33);
+    font-weight: 400;
+}
+
+.widjetBlock {
+    position: relative;
+    flex-direction: column;
+    width: calc(100vw / 1.9);
+    height: calc(100vw / 0.45);
+    margin: calc(100vw / 17) auto calc(100vw / 7.4) auto;
+}
+
+.widjetCard {
+    width: calc(100vw / 1.93);
+    height: calc(100vw / 1.44);
+}
+
+.widjetImageContainer {
+    height: calc(100vw / 1.9);
+    border-radius: calc(100vw / 64);
+    border: 1px solid #F9804B;
+}
+
+.widjetCardIext {
+    display: block;
+    margin-top: calc(100vw / 35);
+    width: 100%;
+    height: calc(100vw / 7.27);
+    margin-bottom: 0px;
+    font-size: calc(100vw / 20);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.iconCard {
+    height: calc(100vw / 5.33);
+    width: calc(100vw / 2.96);
+    padding-top: calc(100vw / 5.926);
+}
+
+.pickFeedArrow320 {
+    position: absolute;
+    left: calc(100vw / 2.3);
+    width: calc(100vw / 3.45);
+    height: calc(100vw / 3.6);
+}
+
+.firstArr {
+    top: calc(100vw / 1.975);
+}
+
+.secArr {
+    top: calc(100vw / 0.78);
+}
+
+.iconZoo {
+    height: calc(100vw / 3.37);
+    width: calc(100vw /3.73);
+    padding-top: calc(100vw / 8.42);
+}
+
+.iconBanana {
+    height: calc(100vw / 4.47);
+    width: calc(100vw / 2.565);
+    padding-top: calc(100vw / 6.67);
+}
+
+.testomonialSection {
+    width: 100vw;
+    height: calc(100vw / 0.582);
+    padding-top: calc(100vw / 10.67);
+    margin: 0px;
+}
+
+.testomonialTitle {
+    font-size: calc(100vw / 13.33);
+    font-weight: 400;
+}
+
+.testimonialScroll {
+    width: calc(100vw / 1.07);
+    height: calc(100vw / 0.896);
+    margin: calc(100vw / 16) auto calc(100vw / 10.67) auto;
+    flex-direction: column;
+}
+
+.testimonialCard {
+    width: 100%;
+    height: calc(100vw / 2.936);
+    border-radius: calc(100vw / 16);
+}
+
+.testimonialHead {
+    margin: calc(100vw / 32) auto calc(100vw / 26.67) calc(100vw / 26.67);
+}
+
+.testimonialUserIcon {
+    width: calc(100vw / 8.65);
+    height: calc(100vw / 8.65);
+    margin-right: calc(100vw / 53.33);
+}
+
+.testimonialUserName {
+    height: calc(100vw / 16.84);
+    font-size: calc(100vw / 20);
+    font-weight: 400;
+}
+
+.testimonialUserLocation {
+    height: calc(100vw / 17.78);
+    font-size: calc(100vw / 21.33);
+    font-weight: 300;
+}
+
+.testimonialText{
+    width: calc(100vw / 1.27);
+    height: calc(100vw / 8.42);
+    margin-left: calc(100vw / 17.78);
+    font-size: calc(100vw / 21.33);
+    line-height: 120%;
+    font-weight: 300;
+    overflow-y: hidden;
+}
+
+.popupBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+    z-index: 7;
+}
+.popupBgactive { 
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 100vw;
+    height: calc(100vw / 0.75);
+    transition: 0.5s all;
+}
+
+.popupActive {
+    transform: translate(-50%, -50%) scale(1); 
+    transition: 0.5s all;
+}
+
+.testimonialCardPopup {
+    width: calc(100vw / 1.20);
+    height: calc(100vw / 0.82);
+    border-radius: calc(100vw / 16);
+    border: #FEBDABBD solid 1px;
+    background-color: #F1F3F2;
+    margin: calc(100vw / 32) auto auto calc(100vw / 37.65);
+}
+
+.testimonialHeadPopup {
+    margin: calc(100vw / 21.33) auto calc(100vw / 29.09) calc(100vw / 21.33);
+    display: flex;
+}
+
+.testimonialUserIconPopup {
+    width: calc(100vw / 8.65);
+    height: calc(100vw / 8.65);
+    margin-right: calc(100vw /32);
+}
+
+.testimonialUserNamePopup {
+    height: calc(100vw / 16.84);
+    font-size: calc(100vw / 20);
+    font-weight: 400;
+    color: #000000;
+}
+
+.testimonialUserLocationPopup {
+    display: flex;
+    height: calc(100vw / 17.78);
+    font-size: calc(100vw / 21.33);
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.testimonialTextPopup {
+    width: calc(100vw / 1.35);
+    height: calc(100vw / 1.036);
+    margin: 0px 0px 0px calc(100vw / 35.56);
+    font-size: calc(100vw / 21.33);
+    line-height: 120%;
+    font-weight: 300;
+    overflow-y: hidden;
+    color: #767474;
+}
+
+.popupImg {
+    width: calc(100vw / 22.86);
+    height: calc(100vw / 22.86);
+    margin: calc(100vw / 25.67) calc(100vw / 32) auto auto;
+    background-image: url('../assets/icons/burgerClose.svg');
+}
+
+.button2 {
+    height: calc(100vw / 5.926);
+    border-radius: calc(100vw / 64);
+    font-size: calc(100vw / 20);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.buttonTestimonial {
+    width: calc(100vw / 1.33);
+    margin-left: calc(100vw / 8);
+}
+
+.footer {
+    height: calc(100vw / 0.96);
+}
+
+.footerCell {
+    flex-direction: column;
+    position: relative;
+    margin: 0px calc(100vw / 24.61) 0px calc(100vw / 35.56);
+    width: calc(100vw / 1.07);
+    padding: calc(100vw / 16) 0px 0px 0px;
+}
+
+.footerLeft {
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vw / 1.96);
+    width: 100vw;
+    margin: 0px;
+}
+
+.lgMobMob {
+    display: block;
+    position: relative;
+    margin: 0px auto calc(100vw / 3.72) calc(100vw / 3.76);
+    height: calc(100vw / 13.91);
+    width: calc(100vw / 2.5);
+}
+
+.logoFooterMb {
+    text-align: center;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: calc(100vw / 16.83);
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0px auto;
+}
+
+.bambooLogo2 {
+    position: absolute;
+    width: calc(100vw / 21.59);
+    height: calc(100vw / 13.91);
+    bottom: calc(100vw / 131.69);
+    left: calc(100vw / 4.64);
+}
+
+.footerSocList {
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    top: calc(100vw / 6.04);
+    left: calc(100vw / 6);
+    width: calc(100vw / 1.65);
+}
+
+.footerSocCell {
+    height: calc(100vw / 12.31);
+}
+
+.buttonFooter {
+    width: calc(100vw / 1.07);
+    margin: 0px auto calc(100vw / 2.936) auto;
+}
+
+.iconFooterBg {
+    width: calc(100vw / 12.31);
+    height: calc(100vw / 12.31);
+}
+
+.iconFacebook {
+    width: calc(100vw / 40);
+    height: calc(100vw / 20);
+    padding-top: calc(100vw / 64);
+}
+
+.iconTwitter {
+    width: calc(100vw / 20);
+    height: calc(100vw / 22.86);
+    padding-top: calc(100vw / 53.33);
+}
+
+.iconInstagramm {
+    width: calc(100vw / 20);
+    height: calc(100vw / 20);
+    padding-top: calc(100vw / 64);
+}
+
+.iconYouTube {
+    width: calc(100vw / 17.78);
+    height: calc(100vw / 24.63);
+    padding-top: calc(100vw / 53.33);
+}
+
+.footerCenter {
+    margin: calc(100vw / 2.936) auto 0px auto;
+    width: calc(100vw / 1.15);
+    height: calc(100vw / 14.545);
+}
+
+.footerLink {
+    font-size: calc(100vw / 20);
+    font-weight: 400;
+}
+
+.footerRight {
+    position: absolute;
+    top: calc(100vw / 1.55);
+    left: calc(100vw / 3.7);
+}
+
+.designText {
+    width: calc(100vw / 1.495);
+    height: calc(100vw / 17.78);
+    font-size: calc(100vw / 21.33);
+    font-weight: 100;
+    margin: calc(100vw / 32) 0px;
+}

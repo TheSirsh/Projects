@@ -1,0 +1,545 @@
+.body {
+    background-position: bottom calc(100vw / 5.15) right;
+    background-size: calc(100vw / 6.5) calc(100vw / 3.93);
+}
+
+.desk1600 {
+    display: none;
+}
+
+.upperSection {
+    background: url('../assets/images/upperSectionPanda.jpg');
+    height: calc(100vw / 2.05);
+}
+
+.header {
+    height: calc(100vw / 20);
+    justify-content: space-between;
+}
+
+.navHeader {
+    padding-top: calc(100vw / 114.28);
+    width: calc(100vw / 1.38);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    color: #FFFFFF;
+    font-size: calc(100vw / 100);
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.nav {
+    width: calc(100vw / 2.6);
+    height: calc(100vw / 30.77);
+}
+
+.navList {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    border-radius: calc(100vw / 800);
+    font-size: calc(100vw / 84.21);
+    width: calc(100vw / 19.51);
+    height: calc(100vw / 30.77);
+}
+
+.bambooLogo {
+    width: calc(100vw / 107.96);
+    height: calc(100vw / 70.89);
+    top: calc(100vw / 53.33);
+    left: calc(100vw / 177.78);
+}
+
+.copyright {
+    color: #FFFFFF;
+    width: calc(100vw / 15.24);
+    height: calc(100vw / 72.73);
+    font-size: calc(100vw / 106.67);
+    letter-spacing: 0.5px;
+}
+
+.online {
+    height: calc(100vw / 2.286);
+}
+
+.onlineCell {
+    position: relative;
+    width: calc(100vw / 1.38);
+    margin: 0px auto;
+}
+
+.titleHeader {
+    width: calc(100vw / 3.2);
+    height: calc(100vw / 4);
+    font-size: calc(100vw / 15.02);
+    font-weight: 700;
+    line-height: 75%;
+    padding: calc(100vw / 18.6) 0px 0px 0px;
+    margin: 0px  0px 0px calc(100vw / 2.42);
+}
+
+.button {
+    width: calc(100vw / 5.37);
+    height: calc(100vw / 29.63);
+    border-radius: calc(100vw / 64);
+    font-size: calc(100vw / 100);
+    letter-spacing: -1px;
+}
+
+.buttonHeader {
+    margin-top: calc(100vw / 26.67);
+    margin-left: calc(100vw / 2.097);
+}
+
+.onlineCircleBg {
+    left: calc(100vw / 2.726);
+    top: calc(100vw / 133.33);
+    width: calc(100vw / 3.44);
+    height: calc(100vw / 3.44);
+}
+
+.backstageSecion {
+    background-image: url('../assets/images/bgFlower.jpg');
+    background-repeat: no-repeat;
+    background-position: top calc(100vw / 133.33) right calc(100vw / (-17.2));
+    background-size: calc(100vw / 5.46) calc(100vw / 2.64);
+}
+
+.backstageSecionCell {
+    margin: 0px auto;
+    width: calc(100vw / 1.38);
+    height: calc(100vw / 3.98);
+    padding-top: calc(100vw / 11.43);
+    padding-bottom: calc(100vw / 8.89);
+}
+
+.backstageImage {
+    width: calc(100vw / 2.63);
+    height: calc(100vw / 3.97);
+}
+
+.backstageTextBlock {
+    width: calc(100vw / 3.44);
+    height: calc(100vw / 3.97);
+    margin-left: calc(100vw / 18.39);
+    font-weight: 400;
+}
+
+.backstageTitle {
+    font-size: calc(100vw / 33.33);
+    font-weight: 400;
+    margin: 0px 0px calc(100vw / 80) 0px;
+}
+
+.backstageText {
+    font-size: calc(100vw / 100);
+}
+
+.backstageText2 {
+    font-size: calc(100vw / 100);
+    line-height: 140%;
+}
+
+.backstageTitleSub {
+    font-size: calc(100vw / 66.67);
+    margin: calc(100vw / 29.63) 0px calc(100vw / 47.06) 0px
+}
+
+.animalCardsSection {
+    background-position: bottom  right, bottom left calc(100vw / (-2.72));
+    background-size: calc(100vw / 4.35) calc(100vw / 5.82), calc(100vw / 1.82) calc(100vw / 3.48);
+}
+
+.animalCardsSectionCell {
+    margin: 0px auto;
+    width: calc(100vw / 1.205);
+    height: calc(100vw / 1.83);
+}
+
+.arrow {
+    width: calc(100vw / 25.81);
+    height: calc(100vw / 25.81);
+    margin: calc(100vw / 3.97) 0px auto 0px;
+}
+
+.leftArrow {
+    margin-right: calc(100vw / 80);
+}
+
+.rightArrow {
+    margin-left: calc(100vw / 80);
+}
+
+.arrowImage {
+    margin: calc(100vw / 59.26) auto;
+    width: calc(100vw / 100);
+    height: calc(100vw / 200);
+}
+
+.animalCards {
+    width: calc(100vw / 1.38);
+}
+
+.card {
+    width: calc(100vw / 4.37);
+    margin-bottom: calc(100vw / 80);
+    height: calc(100vw / 3.756);
+    border-radius: calc(100vw / 320);
+}
+
+.card:hover > .imageCard {
+    transform: translateY(calc(100vw / 53.33)) scale(1.16);
+}
+
+.card:hover > .textCard {
+    transform: translateY(calc(100vw / 100)) translateX(calc(100vw / (-400))) scale(1.25);
+}
+
+.imageCard {
+    height: calc(100vw /4.43);
+    border-radius: calc(100vw / 320) calc(100vw / 320) 0px 0px;
+}
+
+.textCard {
+    width: calc(100vw / 4.73);
+    height: calc(100vw / 42.105);
+    margin-left: calc(100vw / 100);
+    margin-top: calc(100vw / 533.33);
+}
+
+.titleCard {
+    height: calc(100vw / 72.73);
+    letter-spacing: -0.5px;
+    font-size: calc(100vw / 100);
+    font-weight: 500;
+}
+
+.descrCard {
+    height: calc(100vw / 88.89);
+    font-size: calc(100vw / 106.67);
+    font-weight: 300;
+}
+
+.foodCardPlant {
+    margin-top: calc(100vw / 800);
+    width: calc(100vw / 48.48);
+    height: calc(100vw / 43.24);
+}
+
+.foodCardMeat {
+    width: calc(100vw / 33.33);
+    height: calc(100vw / 42.105);
+}
+
+.buttonAnimal {
+    margin: calc(100vw / 20) auto calc(100vw / 16) auto;
+}
+
+.pickFeedSection {
+    height: calc(100vw / 1.715);
+    padding-top: calc(100vw / 23.19);
+}
+
+.pickFeedContainer {
+    width: calc(100vw / 1.38);
+    height: calc(100vw / 1.91);
+    margin: 0px auto;
+    border-radius: calc(100vw / 80);
+}
+
+.pickFeedTitle {
+    height: calc(100vw / 30.19);
+    margin: calc(100vw / 39.02) auto calc(100vw / 45.71) auto;
+    font-size: calc(100vw / 33.33);
+    font-weight: 400;
+}
+
+.pickFeedSubtitle {
+    width: calc(100vw / 1.90);
+    height: calc(100vw / 55.17);
+    font-size: calc(100vw / 66.67);
+    font-weight: 400;
+    margin: 0px calc(100vw / 7.34) calc(100vw / 40) calc(100vw / 16.16);
+}
+
+.pickFeedTextCovid {
+    width: calc(100vw / 1.51);
+    height: calc(100vw / 76.19);
+    max-height: calc(100vw / 76.19);
+    margin: 0px auto calc(100vw / 160) calc(100vw / 16.16);
+    font-size: calc(100vw / 100);
+    font-weight: 500;
+}
+
+.pickFeedText {
+    height: calc(100vw / 38.95);
+    font-size: calc(100vw / 100);
+    font-weight: 400;
+    line-height: 20.8px;
+    margin: 0px calc(100vw / 8.08) calc(100vw/ 26.67) calc(100vw / 16.16);
+}
+
+.pickFeedSecondTitle {
+    width: calc(100vw / 7.656);
+    height: calc(100vw / 34.04);
+    font-size: calc(100vw / 44.44);
+    font-weight: 400;
+}
+
+.widjetBlock {
+    width: calc(100vw / 2.09);
+    height: calc(100vw / 6.557);
+    margin: calc(100vw / 40) auto calc(100vw /26.67) auto;
+}
+
+.widjetCard {
+    width: calc(100vw / 9.52);
+    height: calc(100vw / 6.557);
+}
+
+.widjetImageContainer {
+    height: calc(100vw / 9.52);
+    border-radius: calc(100vw / 320);
+}
+
+.widjetCardIext {
+    margin-top: calc(100vw / 50);
+    font-size: calc(100vw / 100);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.iconCard {
+    height: calc(100vw /26.67);
+    width: calc(100vw / 14.81);
+    padding-top: calc(100vw / 29.63);
+}
+
+.iconZoo {
+    height: calc(100vw / 16.84);
+    width: calc(100vw / 18.65);
+    padding-top: calc(100vw / 42.105);
+}
+
+.iconBanana {
+    height: calc(100vw / 22.35);
+    width: calc(100vw / 12.826);
+    padding-top: calc(100vw / 33.33);
+}
+
+.pickFeedArrow {
+    width: calc(100vw / 23.19);
+    height: calc(100vw / 45.61);
+    margin: calc(100vw / 25.81) calc(100vw / 51.61) auto calc(100vw / 53.33);
+}
+
+.testomonialSection {
+    width: calc(100vw / 1.38);
+    height: calc(100vw / 2.67);
+    margin: calc(100vw / 11.43) auto calc(100vw / 8.89) auto;
+}
+
+.testomonialTitle {
+    font-size: calc(100vw / 44.44);
+}
+
+.testimonialScroll {
+    width: calc(100vw / 1.38);
+    height: calc(100vw / 4.09);
+    margin-top: calc(100vw / 34.04);
+}
+
+.testimonialCard {
+    width: calc(100vw / 5.97);
+    height: calc(100vw / 4.09);
+    border-radius: calc(100vw / 80);
+}
+
+.testimonialHead {
+    margin: calc(100vw / 106.67) auto calc(100vw / 145.45) calc(100vw / 100);
+}
+
+.testimonialUserIcon {
+    width: calc(100vw / 43.24);
+    height: calc(100vw / 43.24);
+    margin-right: calc(100vw / 160);
+}
+
+.testimonialUserName {
+    height: calc(100vw / 84.21);
+    font-size: calc(100vw / 100);
+    font-weight: 400;
+}
+
+.testimonialUserLocation {
+    height: calc(100vw / 88.89);
+    font-size: calc(100vw / 106.67);
+    font-weight: 300;
+}
+
+.testimonialText{
+    width: calc(100vw / 6.75);
+    height: calc(100vw / 5.18);
+    margin-left: calc(100vw / 100);
+    font-size: calc(100vw / 106.67);
+    font-weight: 300;
+}
+
+input[type=range] {
+    width: calc(100vw / 2.67);
+    height: calc(100vw / 200);
+    border-radius: calc(100vw / 320);
+    margin: calc(100vw / 76.25) auto calc(100vw / 52) calc(100vw / 5.71);
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: calc(100vw / 13.89);
+    height: calc(100vw / 266.67);
+    border-radius: calc(100vw / 320);
+}
+
+.footer {
+    height: calc(100vw / 3.61);
+}
+
+.footerCell {
+    flex-direction: row;
+    margin: 0px auto;
+    width: calc(100vw / 1.38);
+    padding: calc(100vw / 39.02) 0px 0px 0px;
+}
+
+.footerLeft {
+    width: calc(100vw / 5.37);
+}
+
+.bambooLogo2 {
+    width: calc(100vw / 107.96);
+    height: calc(100vw / 70.89);
+    top: calc(100vw / 73.94);
+    left: calc(100vw / 177.78);
+}
+
+.button2 {
+    width: calc(100vw / 5.37);
+    height: calc(100vw / 29.63);
+    border-radius: calc(100vw / 320);
+    font-size: calc(100vw / 100);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.buttonFooter {
+    margin: calc(100vw / 23.53) 0px calc(100vw / 36.36) 0px;
+}
+
+.footerSocList {
+    flex-direction: column;
+}  
+
+.footerSocCell {
+    height: calc(100vw / 61.54);
+    margin-bottom: calc(100vw / 160);
+}
+
+.iconFooterBg {
+    width: calc(100vw / 61.54);
+    height: calc(100vw / 61.54);
+}
+
+.iconFacebook {
+    width: calc(100vw / 200);
+    height: calc(100vw / 100);
+    padding-top: calc(100vw / 320);
+}
+
+.iconTwitter {
+    width: calc(100vw / 100);
+    height: calc(100vw / 114.286);
+    padding-top: calc(100vw / 266.67);
+}
+
+.iconInstagramm {
+    width: calc(100vw / 100);
+    height: calc(100vw / 100);
+    padding-top: calc(100vw / 320);
+}
+
+.iconYouTube {
+    width: calc(100vw / 88.89);
+    height: calc(100vw / 123.17);
+    padding-top: calc(100vw / 266.67);
+}
+
+.footerSocText {
+    height: calc(100vw / 72.73);
+    margin-left: calc(100vw / 133.33);
+    font-size: calc(100vw / 100);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerCenter {
+    width: calc(100vw / 4.42);
+    height: calc(100vw / 72.73);
+    margin: 0px calc(100vw / 50) 0px calc(100vw / 15.84);
+    padding-top: calc(100vw / 4.83);
+}
+
+.footerLink {
+    font-size: calc(100vw / 100);
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.subscribeTitle {
+    font-size: calc(100vw / 66.67);
+    font-weight: 400;
+    margin-bottom: calc(100vw / 114.286);
+}
+
+.subscribeForm {
+    width: calc(100vw / 4.36);
+    height: calc(100vw / 38.095);
+}
+
+.subscribeInput {
+    width: calc(100vw / 7.02);
+    height: calc(100vw / 38.095);
+    border-radius: calc(100vw / 800);
+}
+
+.subscribeInput::placeholder {
+    font-size: calc(100vw/ 100);
+    padding-left: calc(100vw / 160);
+    font-weight: 400;
+}
+
+.emailButton {
+    width: calc(100vw / 12.4);
+    height: calc(100vw / 38.095);
+    margin-left: calc(100vw / 160);
+    border-radius: calc(100vw / 320);
+    font-size: calc(100vw/ 100);
+    font-weight: 400;
+}
+
+.designCell {
+    margin-bottom: -2%;
+}
+
+.designText {
+    width: calc(100vw / 7.02);
+    height: calc(100vw / 76.19);
+    margin-left: calc(100vw / 11.51);
+    margin-top: calc(100vw / 160);
+    font-size: calc(100vw/ 100);
+    font-weight: 100;
+}
