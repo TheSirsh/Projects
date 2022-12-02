@@ -1,0 +1,310 @@
+@import url('../css/style320.css') (max-width: 767.9px);
+@import url('../css/style768.css') (min-width: 768px) and (max-width: 1279.5px);
+@import url('../css/style1280.css') (min-width: 1280px);
+
+@keyframes upToDown {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes downToUp {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes rightToLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #151a1e;
+    cursor: url('../assets/cursorNormal.cur'), default;
+}
+
+.header {
+    width: 100vw;
+}
+
+.nav {
+    margin: 0px auto;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.li, .greenBtn, .redBtn {
+    text-decoration: none;
+    border: 1px solid;
+}
+
+.li {
+    text-align: center;
+    align-items: center;
+    color: #4cc9f0;
+}
+
+.greenBtn {
+    color: #44D62C;
+}
+
+.redBtn {
+    color: #D22730;
+}
+
+.li:hover {
+    box-shadow: calc(100vw / 160) calc(100vw / 160) calc(100vw / 16) calc(100vw / 266.67) #4cc9f0;
+    background-color: #4cc9f0;
+    border: 1px solid #4cc9f0;
+    color: #151a1e;
+    cursor: url('../assets/cursorPointer.cur'), pointer;
+}
+
+.greenBtn:hover {
+    box-shadow: calc(100vw / 160) calc(100vw / 160) calc(100vw / 16) calc(100vw / 266.67) #44D62C;
+    background-color: #44D62C;
+    border: 1px solid #44D62C;
+    color: #151a1e;
+    cursor: url('../assets/cursorPointer.cur'), pointer;
+}
+
+.redBtn:hover {
+    box-shadow: calc(100vw / 160) calc(100vw / 160) calc(100vw / 16) calc(100vw / 266.67) #D22730;
+    background-color: #D22730;
+    border: 1px solid #D22730;
+    color: #151a1e;
+    cursor: url('../assets/cursorPointer.cur'), pointer;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popupBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+    z-index: 7;
+}
+
+.hide {
+    display: none;
+}
+
+.popup {
+    background-color: darkgray;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+
+.popupMes {
+    background-color: darkgray;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+
+.popupL {
+    background-color: darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+
+.popepH {
+    text-align: center;
+}
+
+.popupSpan {
+    text-align: left;
+}
+
+.gridCellTitle {
+    text-align: center;
+}
+
+.gridCell {
+    text-align: center;
+}
+
+.moves, .playTime {
+    color: #3333CC;
+}
+
+.game {
+    width: 100vw;
+}
+
+.field {
+    margin: 0px auto;
+    background-color: darkgray;
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.fieldEight {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.fieldSeven {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.fieldSix {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.fieldFive {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.fieldFour {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.fieldThree {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cell, .cellMin, .cellDrag {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #151a1e;
+    border: 2px solid #f038ff;
+    color: #f038ff;
+    cursor: url('../assets/cursorCell.cur'), default;
+    user-select: none
+}
+
+.red {
+    color: #D22730;
+}
+
+.green {
+    color: green;
+}
+
+.textNumber {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+}
+
+.textNumber::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.empty {
+    opacity: 0;
+}
+
+.drag {
+    opacity: 0.5;
+}
+
+.downToUpCell {
+    animation: downToUp 0.2s ease-in;
+}
+
+.upToDownCell {
+    animation: upToDown 0.2s ease-in;
+}
+
+.leftToRightCell {
+    animation: leftToRight 0.2s ease-in;
+}
+
+.rightToLeftCell {
+    animation: rightToLeft 0.2s ease-in;
+}
+
+.hint, .changeSize {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.frameSize, .changeSizeText {
+    color: #3333CC;
+    cursor: url('../assets/cursorNormal.cur'), default;
+}
+
+.changeSizeNumber {
+    color: #4cc9f0;
+}
+
+.changeSizeNumber:hover {
+    box-sizing: border-box;
+    background-color: #4cc9f0;
+    color: #151a1e;
+    border: 1px solid #4cc9f0;
+    box-shadow: calc(100vw / 160) calc(100vw / 160) calc(100vw / 16) calc(100vw / 266.67) #4cc9f0;
+    cursor: url('../assets/cursorPointer.cur'), pointer;
+}
+
+.changeSizeNumberCurrent {
+    display: none;
+}

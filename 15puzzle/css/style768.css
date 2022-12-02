@@ -1,0 +1,94 @@
+.header {
+    height: 5vw;
+    padding: 3vw 0px 0px 0px;
+}
+
+.nav {
+    width: 80vw;
+}
+
+.li {
+    font-size: calc(100vw / 20);
+    padding: calc(100vw / 160);
+}
+
+.stat {
+    width: 80vw;
+    margin: 3vw auto;
+    height: 6vw;
+    font-size: calc(100vw / 25);
+}
+
+.popup {
+    width: 85vw;
+    height: 85vw;
+}
+
+.popupMes {
+    width: 85vw;
+    height: 13vw;
+    font-size: calc(100vw / 20);
+}
+
+.popupL {
+    width: 85vw;
+    height: 85vw;
+}
+
+.popepH {
+    font-size: calc(100vw / 30);
+}
+
+.popupSpan {
+    display: block;
+    width: 80vw;
+    margin: 0px auto;
+    font-size: calc(100vw / 36);
+}
+
+.gridCellTitle {
+    font-size: calc(100vw / 60);
+}
+
+.gridCell {
+    font-size: calc(100vw / 60);
+}
+
+.field {
+    width: 80vw;
+    height: 80vw;
+}
+
+.cell {
+    font-size: calc(100vw / 13);
+    border-radius: calc(100vw / 40);
+}
+
+.cellMin {
+    font-size: calc(100vw / 26);
+    border-radius: calc(100vw / 40);
+}
+
+.cellDrag {
+    font-size: calc(100vw / 26);
+}
+
+.hint, .changeSize {
+    font-size: calc(100vw / 25);
+    height: 4vw;
+}
+
+.hint {
+    width: 80vw;
+    padding-top: 1vh;
+}
+
+.soundButton, .dragNdropBtn {
+    padding: 0px calc(100vw / 160);
+    height: 4vw;
+}
+
+.changeSize {
+    width: 80vw;
+    padding-top: 1.5vh;
+}

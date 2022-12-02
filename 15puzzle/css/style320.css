@@ -1,0 +1,94 @@
+.header {
+    height: 7vw;
+    padding: 3vw 0px 0px 0px;
+}
+
+.nav {
+    width: 85vw;
+}
+
+.li {
+    font-size: calc(100vw / 25);
+    padding: calc(100vw / 160);
+}
+
+.stat {
+    width: 85vw;
+    margin: 3vw auto;
+    height: 7vw;
+    font-size: calc(100vw / 20);
+}
+
+.popup {
+    width: 85vw;
+    height: 85vw;
+}
+
+.popupMes {
+    width: 85vw;
+    height: 13vw;
+    font-size: calc(100vw / 20);
+}
+
+.popupL {
+    width: 85vw;
+    height: 85vw;
+}
+
+.popepH {
+    font-size: calc(100vw / 30);
+}
+
+.popupSpan {
+    display: block;
+    width: 80vw;
+    margin: 0px auto;
+    font-size: calc(100vw / 36);
+}
+
+.gridCellTitle {
+    font-size: calc(100vw / 20);
+}
+
+.gridCell {
+    font-size: calc(100vw / 20);
+}
+
+.moves, .playTime {
+    font-size: calc(100vw / 20);
+}
+
+.field {
+    width: 80vw;
+    height: 80vw;
+}
+
+.cell {
+    font-size: calc(100vw / 15);
+    border-radius: calc(100vw / 40);
+}
+
+.cellMin {
+    font-size: calc(100vw / 30);
+    border-radius: calc(100vw / 40);
+}
+
+.hint, .changeSize {
+    font-size: calc(100vw / 20);
+    height: 5vw;
+}
+
+.soundButton, .dragNdropBtn {
+    padding: 0px calc(100vw / 160);
+    height: 5vw;
+}
+
+.hint {
+    width: 70vw;
+    padding-top: 1vh;
+}
+
+.changeSize {
+    width: 80vw;
+    padding-top: 1vh;
+}
