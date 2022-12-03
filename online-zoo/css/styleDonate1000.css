@@ -1,0 +1,404 @@
+.upperSection {
+    height: calc(100vw / 2.13);
+    background-image: url('../assets/images/pandaBgDon2.jpg');
+    background-size: 100vw calc(100vw /  2.56);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.desk1000 {
+    display: none;
+}
+
+.header {
+    height: calc(100vw / 12.5);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navHeader {
+    width: calc(100vw / 1.06);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    color: #FFFFFF;
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 140%;
+    margin-left: calc(100vw / 20.83);
+}
+
+.nav {
+    width: calc(100vw / 1.736);
+    height: calc(100vw / 19.23);
+}
+
+.navList {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    border-radius: calc(100vw / 500);
+    font-size: calc(100vw / 52.6);
+    width: calc(100vw / 12.195);
+    height: calc(100vw / 19.23);
+    margin-left: 0px;
+    margin-right: calc(100vw / 80);
+}
+
+.bambooLogo {
+    width: calc(100vw / 142.25);
+    height: calc(100vw / 33.356);
+    top: 45%;
+    left: 10%;
+}
+
+.bambooLogo2 {
+    width: 7px;
+    height: 20px;
+    top: 40%;
+    left: 4%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    width: calc(100vw / 9.52);
+    height: calc(100vw / 45.45);
+    font-size: calc(100vw / 62.5);
+}
+
+.online {
+    height: calc(100vw / 2.56);
+}
+
+.donate {
+    height: calc(100vw / 0.75);
+}
+
+.donateCell {
+    width: calc(100vw / 1.06);
+}
+
+.donateTitle {
+    margin: calc(100vw / 25) calc(100vw / 5.21) calc(100vw / 33.33) auto;
+    font-size: calc(100vw / 27.78);
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.donateText {
+    margin: 0px auto calc(100vw / 23) auto;
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.donateInfo {
+    margin: 0px 0px calc(100vw / 25) 0px;
+    font-size: calc(100vw / 27.78);
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.donateWidjet {
+    height: calc(100vw / 1.09);
+    border-radius: calc(100vw / 50);
+}
+
+.donateWidjetTitle {
+    margin: calc(100vw / 50) auto calc(100vw / 100) auto;
+    padding-right: calc(100vw / 100);
+    font-size: calc(100vw / 20.83);
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.donateWidjetText {
+    text-align: left;
+    width: calc(100vw / 1.18);
+    margin: 0px auto calc(100vw / 16.67) auto;
+    font-size: calc(100vw / 41.67);
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.widjet {
+    margin: 0px calc(100vw / 4.72) calc(100vw / 20) auto;
+    width: calc(100vw / 1.88);
+    height: calc(100vw / 4.065);
+}
+
+.widjetTextCell {
+    width: calc(100vw / 6.29);
+    height: calc(100vw / 10.99);
+    margin-top: calc(100vw / 11);
+}
+
+.daysAmount {
+    font-size: calc(100vw / 13.89);
+    font-weight: 500;
+}
+
+.daysAmountText {
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.x {
+    width: calc(100vw / 71.43);
+    height: calc(100vw / 71.43);
+    margin-top: calc(100vw / 7.69);
+    margin-right: calc(100vw / 15.625);
+}
+
+.widjetImageConatiner {
+    width: calc(100vw / 3.52);
+    height: calc(100vw / 4.065);
+}
+
+.amount {
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    margin: calc(100vw / 20.83) auto calc(100vw / 100) calc(100vw / 15.38);
+}
+
+.progressBarBg {
+    width: calc(100vw / 1.23);
+    height: calc(100vw / 37.04);
+    margin: calc(100vw / 50) auto 0px auto;
+}
+
+.progreesBar {
+    margin-top: calc(100vw / 83.33);
+    width: calc(100vw / 1.26);
+    height: calc(100vw / 500);
+}
+
+.radioSum {
+    width: calc(100vw / 1.185);
+    margin-left: calc(100vw / 30 / (-1));
+}
+
+.widjetCircle {
+    width: calc(100vw / 100);
+    height: calc(100vw / 100);
+    margin: calc(100vw / 200 / (-1)) auto calc(100vw / 41) auto;
+}
+
+.widjetCircle:hover:before {
+    left: calc(100vw / (-200));
+    top: calc(100vw / (-400));
+    padding: 0px calc(100vw / 142.86);
+}
+
+.widjetCircle:hover::after {
+    left: calc(100vw / (-30.77));
+    top: calc(100vw / (-333));
+    padding: calc(100vw / 166.67) calc(100vw / 71.43);
+}
+
+.widjetMoney {
+    width: 80%;
+}
+
+.money {
+    font-size: calc(100vw / 38.46);
+    font-weight: 500;
+}
+
+.imputNumber {
+    width: calc(100vw / 3.73);
+    height: calc(100vw / 18.52);
+    border-radius: calc(100vw / 500);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    margin: calc(100vw / 10) auto calc(100vw / 40) auto;
+    padding-left: calc(100vw / 111.11);
+}
+
+.imputNumber::placeholder {
+    padding-left: calc(100vw / 111.11);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.symb {
+    left: calc(100vw / 1.71);
+    top: calc(100vw / 9.17);
+    font-size: calc(100vw / 40);
+    font-weight: 400;
+}
+
+.choise {
+    margin: 0px auto calc(100vw / 37) calc(100vw / 2.75);
+    width: calc(100vw / 4.59);
+}
+
+.rBtn {
+    width: calc(100vw / 11.904);
+    height: calc(100vw / 47.62);
+    font-size: calc(100vw / 62.5);
+    align-items: center;
+}
+
+.radio {
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 62.5);
+}
+
+.button {
+    margin: 0px auto calc(100vw / 33.31) auto;
+    width: calc(100vw / 3.356);
+    height: calc(100vw / 18.52);
+    border-radius: calc(100vw / 40);
+    font-size: calc(100vw / 62.5);
+    letter-spacing: -1px;
+}
+
+.donationText {
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    margin: 0px auto calc(100vw / 21.75) auto;
+}
+
+.button2 {
+    width: calc(100vw / 3.356);
+    height: calc(100vw / 18.52);
+    border-radius: calc(100vw / 200);
+    margin-left: calc(100vw / 33.33);
+    font-size: calc(100vw / 62.5);
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.footer {
+    height: calc(100vw / 2.26);
+}
+
+.footerSocList {
+    flex-direction: column;
+}  
+
+.footerCell {
+    margin: 0px auto;
+    width: calc(100vw / 1.06);
+    padding: calc(100vw / 25) 0px 0px 0px;
+}
+
+.footerSocCell {
+    height: calc(100vw / 38.46);
+    margin-bottom: calc(100vw / 100);
+}
+
+.buttonFooter {
+    margin: calc(100vw / 14.7) 0px calc(100vw / 22.72) 0px;
+}
+
+.iconFooterBg {
+    width: calc(100vw / 38.36);
+    height: calc(100vw / 38.46);
+}
+
+.iconFacebook {
+    width: calc(100vw / 125);
+    height: calc(100vw / 62.5);
+    padding-top: calc(100vw / 200);
+}
+
+.iconTwitter {
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 71.43);
+    padding-top: calc(100vw / 166.67);
+}
+
+.iconInstagramm {
+    width: calc(100vw / 62.5);
+    height: calc(100vw / 62.5);
+    padding-top: calc(100vw / 200);
+}
+
+.iconYouTube {
+    width: calc(100vw / 55.56);
+    height: calc(100vw / 76.98);
+    padding-top: calc(100vw / 166.67);
+}
+
+.footerSocText {
+    height: calc(100vw / 45.45);
+    margin-left: calc(100vw / 83.33);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerCenter {
+    width: calc(100vw / 3.01);
+    height: calc(100vw / 45.45);
+    margin-left: calc(100vw / 125 / (-1));
+    margin-right: calc(100vw / 11.36 / (-1));
+    padding-top: calc(100vw / 3.02);
+}
+
+.footerLink {
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.subscribeCell {
+    margin-left: calc(100vw / 125);
+}
+
+.subscribeTitle {
+    font-size: calc(100vw / 41.67);
+    font-weight: 400;
+    margin-bottom: calc(100vw / 71.43);
+}
+
+.subscribeForm {
+    width: calc(100vw / 2.73);
+    height: calc(100vw / 23.81);
+    margin: 0px;
+}
+
+.subscribeInput {
+    width: calc(100vw / 4.386);
+    height: calc(100vw / 23.81);
+    border-radius: calc(100vw / 500);
+}
+
+.subscribeInput::placeholder {
+    font-size: calc(100vw / 62.5);
+    padding-left: calc(100vw / 100);
+    font-weight: 400;
+}
+
+.emailButton {
+    width: calc(100vw / 7.75);
+    height: calc(100vw / 23.81);
+    margin-left: calc(100vw / 111.11);
+    border-radius: calc(100vw / 200);
+    font-size: calc(100vw / 62.5);
+    font-weight: 400;
+}
+
+.designCell {
+    margin-bottom: -2%;
+}
+
+.designText {
+    width: calc(100vw / 4.386);
+    height: calc(100vw / 47.61);
+    margin-left: calc(100vw / 5.68);
+    margin-top: calc(100vw / 100);
+    font-size: calc(100vw / 62.5);
+    font-weight: 100;
+}
